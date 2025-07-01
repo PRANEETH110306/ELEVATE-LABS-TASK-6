@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Luckiest+Guy&display=swap');
+
+body {
+  font-family: "Audiowide", sans-serif;
+  color: aliceblue;
+  background-image: url("Backgorund.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(255, 255, 255);
+}
+
+.contact-form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  font-family: "Audiowide", cursive;
+  background-color: rgb(0, 255, 255, 0.3);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: #ffffff;  /* Change to your desired color */
+  font-style: italic;
+  opacity: 1; /* Make it fully visible */
+}
+
+
+button {
+  font-family: "Audiowide", cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #00b3ff;
+  color: rgba(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
